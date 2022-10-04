@@ -4,11 +4,12 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 0rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-top: 3rem;
   align-items: center;
 }
 
@@ -107,7 +108,16 @@
   height: 1em;
   margin-left: 0.5rem;
 }
-
+.mainnav ul{
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+.mainnav ul li{
+ margin: 0 24px;
+ list-style: none;
+ font-weight: bold;
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;
